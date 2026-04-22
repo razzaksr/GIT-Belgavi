@@ -3,12 +3,36 @@
         "name": "Razak Mohamed",
         "age": 34,
         "gender": "male",
-        "date": "2026-04-22 12:58",
+        "date": "2026-04-22 14:17",
         "weight": 65,
         "bmi": 26.0,
         "bmr": 1472.5,
         "fat-rate": 22.8,
         "muscle-rate": 50.2,
         "body-age": 39
+    },
+    "2": {
+        "name": "David",
+        "age": 24,
+        "gender": "male",
+        "date": "2026-04-22 14:17",
+        "weight": 61.02,
+        "bmi": 19.3,
+        "bmr": 1607.7,
+        "fat-rate": 12.5,
+        "muscle-rate": 53.4,
+        "body-age": 24
+    },
+    "3": {
+        "name": "Priyanka",
+        "age": 25,
+        "gender": "female",
+        "date": "2026-04-22 14:18",
+        "weight": 52.02,
+        "bmi": 21.9,
+        "bmr": 1196.7,
+        "fat-rate": 26.6,
+        "muscle-rate": 38.2,
+        "body-age": 25
     }
 }

@@ -27,3 +27,6 @@ Abstraction:
 
 
 Day2:
+	Inheritance
+	Polymorphism: Overriding 
+	LLD Design

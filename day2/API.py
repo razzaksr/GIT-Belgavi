@@ -1,8 +1,23 @@
-from interact import gHealth
 from data import record, retrieve
 from datetime import datetime
+from abc import *
+# Abstract with factory pattern
+class gHealth:
+    @staticmethod
+    def getHealth():
+        return API()
+    @abstractmethod
+    def makeWeighIn(self,**kwargs): pass
+    @abstractmethod
+    def updateWeighIn(self,id,**kwargs):pass
+    @abstractmethod
+    def readWeighIn(self,id):pass
+    @abstractmethod
+    def calculateMetrics(self,weight):pass
+    @abstractmethod
+    def filter(self,criteria,value,operate):pass
 class API(gHealth):
-    def __init__(self, name, age, gender, height):
+    def __init__(self, name="", age=0, gender="", height=0):
         self.__name = name
         self.__age=age
         self.__gender=gender
@@ -55,8 +70,17 @@ class API(gHealth):
             record(collected)
             return "Weigh_In updated"
         else: return "WeighIn-Id not found"
-# main execution
-health1 = API("Razak Mohamed",34,"male",158)
-health1.makeWeighIn(id=1,weight=71.02)
-print(health1.readWeighIn("1"))
-print(health1.updateWeighIn(id=1,weight=65))
+    @staticmethod
+    def filter(criteria, value, operate):
+        collected = retrieve()
+        result = []
+        for each in collected.values():
+            if operate == "eq" and each[criteria]==value:
+                result.append(each)
+            elif operate == "le" and each[criteria]<=value:
+                result.append(each)
+            elif operate == "ge" and each[criteria]>=value:
+                result.append(each)
+            elif operate == "ne" and each[criteria]!=value:
+                result.append(each)
+        return result
