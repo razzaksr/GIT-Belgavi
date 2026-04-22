@@ -34,3 +34,5 @@ Day2:
 	Data>> json and pickle(Serialize and deserialize)
 	API>> Factory pattern
 	Dashboard>> Menu driven app
+
+	Task were given with FRS
