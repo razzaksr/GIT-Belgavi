@@ -36,3 +36,11 @@ Day2:
 	Dashboard>> Menu driven app
 
 	Task were given with FRS
+		Income Tax filing
+		Insurance policy Tracker
+	
+	Building app into exe
+		pip install pyinstaller
+		Open terminal where main python file and icon image located
+		pyinstaller --onefile --icon=IMAGE.EXTENSION main.py
+	
