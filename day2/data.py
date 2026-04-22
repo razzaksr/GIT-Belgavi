@@ -1,12 +1,14 @@
-from json import *
-storage = "gHealthmetric.json"
+# from json import *
+from pickle import *
+# storage = "gHealthmetric.json"
+storage = "gHealthmetric.pkl"
 # write to file
 def record(data):
-    with open(storage,"w") as fwrite:
-        dump(data,fwrite,indent=4)
+    with open(storage,"wb") as fwrite:
+        dump(data,fwrite)
 # read from file
 def retrieve():
     try:
-        with open(storage,"r") as fread:
+        with open(storage,"rb") as fread:
             return load(fread)
-    except FileNotFoundError: return {}
+    except (FileNotFoundError,EOFError): return {}

@@ -28,5 +28,9 @@ Abstraction:
 
 Day2:
 	Inheritance
-	Polymorphism: Overriding 
+	Polymorphism: Overriding, overloading
 	LLD Design
+	Health care Matric tracking console app
+	Data>> json and pickle(Serialize and deserialize)
+	API>> Factory pattern
+	Dashboard>> Menu driven app
