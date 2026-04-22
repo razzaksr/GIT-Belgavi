@@ -1,0 +1,29 @@
+Day1:
+Core/ Backend:
+
+OOP
+Structures
+Algorithms
+Data
+
+Class and Objects
+design patterns:
+
+Encapsulation:
+	Creditcard >> cardNumber, expiry, pin, cvv, cardholder
+
+
+
+
+https://github.com/razzaksr/GIT-Belgavi
+
+
+
+Abstraction:
+	Overriding
+
+
+
+
+
+Day2:
