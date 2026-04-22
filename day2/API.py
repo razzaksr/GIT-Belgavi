@@ -22,6 +22,12 @@ class API(gHealth):
         self.__age=age
         self.__gender=gender
         self.__height = height
+    def initialize(self,name="", age=0, gender="", height=0):
+        self.__name = name
+        self.__age=age
+        self.__gender=gender
+        self.__height = height
+        
     # bmi, bmr, muscle rate, fat rate, body age
     def calculateMetrics(self,weight):
         bmi = round(weight/(self.__height/100)**2,1)

@@ -34,5 +34,17 @@
         "fat-rate": 26.6,
         "muscle-rate": 38.2,
         "body-age": 25
+    },
+    "4": {
+        "name": "Sabarinathan",
+        "age": 34,
+        "gender": "male",
+        "date": "2026-04-22 15:00",
+        "weight": 82.9,
+        "bmi": 28.0,
+        "bmr": 1739.0,
+        "fat-rate": 25.2,
+        "muscle-rate": 62.0,
+        "body-age": 39
     }
 }
