@@ -1,0 +1,51 @@
+Functional Requirements Specification (FRS)
+
+Project: Insurance Policy Tracker
+
+1. Purpose
+
+The Insurance Policy Tracker manages policyholder records, calculates premiums, and tracks claim eligibility.
+
+2. Scope
+
+Maintain insurance policy records.
+
+Perform CRUD operations (Create, Read, Update, Delete).
+
+Calculate premium schedules and claim eligibility.
+
+Provide filtering by premium, sum assured, and term.
+
+3. Functional Requirements
+
+Create Policy: Add policyholder details (ID, name, premium, sum assured, term, type).
+
+Read Policy: Retrieve policy details by ID.
+
+Update Policy: Modify policy details and recalculate premium.
+
+Delete Policy: Remove policy record.
+
+Calculate Premium: Compute premium due dates and amounts.
+
+Filter Policies: Query policies by premium, sum assured, or term.
+
+4. Non-Functional Requirements
+
+Data persistence using JSON or Pickle.
+
+Secure handling of policyholder data.
+
+Extensible design for future modules (e.g., claims management).
+
+5. Users
+
+Insurance agents
+
+Policyholders (view-only access)
+
+6. Constraints
+
+Must adhere to insurance regulatory standards.
+
+Should support multiple policy types.

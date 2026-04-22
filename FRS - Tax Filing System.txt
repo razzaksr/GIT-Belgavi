@@ -1,0 +1,51 @@
+Functional Requirements Specification (FRS)
+
+Project: Tax Filing System
+
+1. Purpose
+
+The Tax Filing System manages taxpayer records, calculates tax liabilities, and provides CRUD operations with filtering capabilities.
+
+2. Scope
+
+Maintain taxpayer records.
+
+Perform CRUD operations (Create, Read, Update, Delete).
+
+Calculate tax liability based on slabs and deductions.
+
+Provide filtering by income, tax liability, and age.
+
+3. Functional Requirements
+
+Create Taxpayer: Add taxpayer details (ID, name, age, income, deductions).
+
+Read Taxpayer: Retrieve taxpayer details by ID.
+
+Update Taxpayer: Modify taxpayer details and recalculate tax.
+
+Delete Taxpayer: Remove taxpayer record.
+
+Calculate Tax: Compute tax liability using slab-based rules.
+
+Filter Taxpayers: Query taxpayers by income, tax liability, or age.
+
+4. Non-Functional Requirements
+
+Data persistence using JSON or Pickle.
+
+Secure handling of taxpayer data.
+
+Extensible design for future modules (e.g., GST filing).
+
+5. Users
+
+Tax officers
+
+Taxpayers (view-only access)
+
+6. Constraints
+
+Must adhere to government tax regulations.
+
+Should support multiple tax regimes.
