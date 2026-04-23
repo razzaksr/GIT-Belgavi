@@ -49,3 +49,57 @@ Day3: Linear Data structures
 Implementation of LinkedList via Node>> Singly, Doubly
 Implementation of Stack via Node
 Implementation of Queue via Node
+
+
+
+
+Leet code problems:
+Largest Rectangle in Histogram
+
+Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.
+Example 1:
+Input: heights = [2,1,5,6,2,3]
+Output: 10
+Explanation: The above is a histogram where width of each bar is 1.
+The largest rectangle is shown in the red area, which has an area = 10 units.
+
+
+
+
+
+temperature analysis
+input: 
+[36,25,38,42,20]
+Output:
+[25,20,20,20,-1]
+Input:
+[4,5,2,25]
+Output:
+[2,2,-1,-1]
+
+Least Recent Used Cache
+Example:
+limit=2
+9.5		Vikas
+2.5		Richard
+
+2.5		>> Richard
+6.7		Praveen
+9.5		>> -1
+
+
+
+Validate Brackets/ Parenthesis:
+()
+()[]{}
+(]
+([)]
+{[]}
+
+
+
+
+
+
+
+
