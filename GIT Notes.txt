@@ -43,4 +43,9 @@ Day2:
 		pip install pyinstaller
 		Open terminal where main python file and icon image located
 		pyinstaller --onefile --icon=IMAGE.EXTENSION main.py
-	
+
+
+Day3: Linear Data structures
+Implementation of LinkedList via Node>> Singly, Doubly
+Implementation of Stack via Node
+Implementation of Queue via Node
