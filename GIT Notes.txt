@@ -97,9 +97,19 @@ Validate Brackets/ Parenthesis:
 {[]}
 
 
+Day4: Non Linear Data structures
 
+Implementation of Binary Tree
+Implementation of Binary Search Tree
+Implementation of In, pre, post orders
+Implementation of level order 
 
+Leet code problem 226
 
+Leet Code problem 98
 
+Leet Code problem 543
 
+Leet Code problem 124
 
+Leet Code problem 404
