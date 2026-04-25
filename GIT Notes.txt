@@ -113,3 +113,34 @@ Leet Code problem 543
 Leet Code problem 124
 
 Leet Code problem 404
+
+
+
+Day5: 
+Searching:
+Implementation of binary search Leet code problem 704
+
+Implementation of Ternary Search from Geek foe Geeks problems
+
+Leet code problem 153
+
+Leet code problem 70
+
+Implementation of
+Quick sort
+Merge sort
+
+
+Database:
+DML, DDL, 
+Procedures
+Error Handling
+
+
+Python with MySQL
+
+pip install mysql-connector-python
+pip install python-dotenv
+
+
+DML, Joins: inner , outer, left, right
